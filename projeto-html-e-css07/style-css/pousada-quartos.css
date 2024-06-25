@@ -1,0 +1,43 @@
+                                        /*  SEÇÃO INFORMAÇOES DE QUARTOS */ 
+.inf-quartos  {
+    height: 2000px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+.secao-quarto-img {
+    max-height: 220px;
+}  
+
+.secao-quarto-img img {
+    width: 325px;
+    height: 200px;
+}
+
+.listas-informacoes {
+    margin: 0 auto;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    overflow: auto;
+}
+
+.listas-informacoes h3 {
+    border-bottom: 3px solid #00776d;
+    padding: 2px 4px;
+}
+
+.listas-informacoes ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.listas-informacoes li {
+    margin: 0% 20px;
+    font-size: 14px;
+}

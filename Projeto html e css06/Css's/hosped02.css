@@ -1,0 +1,160 @@
+* {box-sizing: border-box; font-family: poppins; margin: 0;}
+                                  /* Topo com logo e links */
+.topo {
+    background-image: linear-gradient(to left, rgb(1, 74, 143),rgb(0, 132, 255));
+    width: 100%;
+    height: 170px;
+    position: relative;
+}
+
+.topo img {
+    width: 80px;
+    position: absolute;
+    left: 13%;
+    top: 25%;
+}
+
+.titulo  {
+    width: 230px;
+    height: 80px;
+    display: inline;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    text-align: left;
+}
+
+.texto-topo {
+    color:white;
+    font-weight: 600;
+}
+
+.topo .links-topo {
+    position: absolute;
+    right: 170px;
+    top: 70px;
+    width: 35%;
+    height: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topo .links-topo a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 8px 0 8px;
+    font-weight: 600;
+}
+                            /* SEÇÃO TABELA */
+.secao-tabela {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+.secao-tabela table {
+    width: 75%;
+    /* background-color: rgb(245, 245, 245); */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgb(244, 244, 255);
+}
+
+.secao-tabela table tr {
+    height: 50px;
+    text-align: center;
+}
+
+.tabela-subtitulo {
+    font-size: 14px;
+    color: #acacac;
+    font-weight: 100;
+    height: 35px;
+    padding: 20px;
+    text-align: center;
+}
+
+.secao-tabela table tr h2 {
+    font-size: 34px;
+    text-align: center;
+}
+
+.descricao {
+    text-align: left;
+    text-indent: 10px;
+    background-color: rgb(245, 245, 245);
+}
+
+.partes-branco {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.bolinha {
+    padding: 1px 4px;
+    border-radius: 100%;
+    color: rgb(80, 80, 255);
+    background-color: rgb(80, 80, 255);
+    font-size: 8px;
+}
+                                        /* FAIXA AZUL */
+.faixa-dois {
+    background-image: linear-gradient(to left, rgb(1, 74, 143),rgb(0, 132, 255));
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.faixa-dois img {
+    width: 80px;
+    position: absolute;
+    left: 36%;
+    top: 36%;
+}
+
+.titulo-segundo  {
+    width: 17%;
+    height: 80px;
+    display: inline;
+    text-align: left;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-40%, -50%);
+}
+
+.faixa-dois .paragrafo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 200%);
+}
+
+.texto {
+    color:white;
+    font-weight: 600;
+}
+                                /*   FOOTER    */
+footer {
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+
+.nome-desenvolvedor {
+    color: rgb(236, 154, 0);
+}
+
+footer p {
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
